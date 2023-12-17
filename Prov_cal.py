@@ -44,6 +44,7 @@ def maximum_funk(numb):
                 print("End Provision: " + str(numb))
             elif int(Maximum) < numb:
                 print("End Provision: " + str(Maximum))
+            print("----------------------------")
             done = True
         except ValueError:
             print("Geben sie entweder eine Zahl oder 'N' ein")
