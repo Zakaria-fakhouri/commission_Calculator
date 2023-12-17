@@ -1,4 +1,5 @@
 import threading
+
 def input_integer(value):
     while True:
         try:
