@@ -1,3 +1,4 @@
+import threading
 def input_integer(value):
     while True:
         try:
@@ -66,6 +67,4 @@ if __name__ == "__main__":
         input_values("Provision",pro_list)
         print("----------------------------")
         x += 1
-    start = time.time()
     threader(maximum_funk(final_outcome()),x)
-    end = time.time()
